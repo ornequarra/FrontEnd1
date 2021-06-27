@@ -1,0 +1,74 @@
+body {
+    font-family: Times New Roman;
+    max-width: 100%;
+}
+
+header {
+    background-image: url("../img/hamburger-solid.svg");
+    background-color: rgba(100, 148, 237, 0.432);
+    background-size: 4em;
+}
+
+
+/*¿Como le pongo opacity solo al background-image y no a la foto y h1?*/
+
+header img {
+    height: 10em;
+    display: block;
+    margin: auto;
+    padding-top: 1em;
+}
+
+h1 {
+    background-color: rgb(55, 65, 83);
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.boton {
+    background-color: #6bc5e9;
+    color: black;
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+
+/*¿como centro el boton?*/
+
+.sobreMi {
+    max-width: 30em;
+    min-height: 20em;
+    text-align: center;
+    margin: auto;
+}
+
+h2 {
+    background-color: rgba(100, 148, 237, 0.5);
+}
+
+.item {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.fecha {
+    font-weight: bold;
+}
+
+.descripcion {
+    padding-left: 5.3em;
+}
+
+footer {
+    background-color: cornflowerblue;
+    text-align: center;
+    word-spacing: 0.8em;
+    font-size: 1.5em;
+    margin: auto;
+    padding: 0.3em 0;
+}
+
+main {
+    max-width: 60em;
+    margin: auto;
+}

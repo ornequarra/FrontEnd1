@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: roboto, 'Courier New', Courier, monospace;
+}
+
+main {
+    display: flex;
+    background-color: #E5E5E5;
+    gap: 5px;
+    justify-content: center;
+}
+
+.box {
+    border-radius: 5%;
+    margin: 35px 0px;
+    width: 650px;
+    height: 465px;
+}
+
+.envioGratis {
+    background-image: url(../img/delivery.jpg);
+    background-size: contain;
+    padding: 20px;
+    color: #FC200C;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+span {
+    color: #F3F3F3;
+}
+
+h2 {
+    text-align: center;
+    color: #FC200C;
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 60px;
+    padding-top: 26px;
+}
+
+.podio {
+    background-color: #FFFFFF;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 23px;
+    padding: 20px;
+}
+
+.pizzas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    height: 250px;
+}
+
+
+/*.pizzas img {
+    width: 92px;
+    height: 129px;
+}*/
+
+li {
+    padding: 10px;
+}
+
+header,
+footer {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+header {
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+a {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F3F3F3;
+    text-decoration: none;
+    padding: 8px;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 10px;
+    height: 140px;
+}
+
+.enlaces a {
+    gap: 10px;
+}
+
+footer img {
+    height: 80px;
+}

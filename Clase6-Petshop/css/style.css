@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: black
+}
+
+.justify {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.top {
+    color: #F3F3F3
+}
+
+.menu {
+    text-align: right;
+}
+
+.contenedor {
+    background-color: #F0A83E;
+    word-spacing: 1em;
+    font-size: 0.8em;
+}
+
+.pawprint {
+    height: 14px;
+    width: 15px;
+}
+
+.logo {
+    height: 23px;
+    width: 166px;
+    left: 788px;
+    top: 1636px;
+    margin-right: 20px;
+}
+
+h2 {
+    background-color: #ffffff;
+    width: max-content;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.banner {
+    background-image: url(../img/foto.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #3C2313;
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.banner p {
+    font-size: 16px;
+    margin: 10px;
+}
+
+.carteles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.boton {
+    background-color: #F0A83E;
+    width: max-content;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.principal {
+    text-align: center;
+}
+
+.paw {
+    width: 67px;
+    height: 71px;
+}
+
+h1 {
+    color: #3C2313;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+    color: #666666;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 20px;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+
+.articulo h3 {
+    color: #3C2313;
+    font-weight: 500;
+}
+
+.articulo p {
+    color: #F0A83E;
+    font-weight: 500;
+    font-size: 1.17em;
+}
+
+.fondo {
+    color: #F3F3F3;
+    background-color: #222222;
+    text-align: center;
+    font-weight: bold;
+}
+
+.enviarCorreo {
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.enviarCorreo img {
+    padding: 0 23px;
+}
+
+.contacto {
+    background-color: #3C2313;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: flex-start;
+    margin: 20px 40px;
+    gap: 40px;
+}
+
+.contacto h3 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 168px;
+}
+
+.contacto p {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8A8787;
+    width: 100%;
+}
+
+.fondo {
+    font-weight: 700;
+}
