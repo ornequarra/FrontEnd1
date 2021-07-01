@@ -18,17 +18,19 @@ h1 {
     width: 100%;
 }
 
-main {
+.cartas {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    gap: 30px;
 }
 
 .perfil {
-    max-width: 300px;
-    margin: 100px 60px;
-    display: inline-block;
     box-shadow: 0px 4px 4px 0px #00000040;
+    width: 300px;
 }
 
 .fondo {
@@ -38,12 +40,6 @@ main {
 
 .corazon {
     position: absolute;
-    top: 10px;
-    left: 10px;
-}
-
-.fondoHQ img {
-    position: relative;
     top: 10px;
     left: 10px;
 }
@@ -78,6 +74,14 @@ h2 {
     margin: auto;
 }
 
+i {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    color: #00669F;
+    font-size: 30px;
+}
+
 footer {
     background-color: #00669F;
     color: #FFF9F9;
@@ -85,4 +89,20 @@ footer {
 
 footer p {
     padding: 15px 20px;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 480px) {
+    .cartas {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 100px;
+        margin-top: 100px;
+        gap: 30px;
+    }
 }

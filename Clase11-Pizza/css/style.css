@@ -25,6 +25,7 @@ main {
 .envioGratis {
     background-image: url(../img/delivery.jpg);
     background-size: contain;
+    background-repeat: no-repeat;
     padding: 20px;
     color: #FC200C;
     font-family: Roboto;
@@ -67,11 +68,9 @@ h3 {
     height: 250px;
 }
 
-
-/*.pizzas img {
-    width: 92px;
-    height: 129px;
-}*/
+.pizzas img {
+    height: 160px;
+}
 
 li {
     padding: 10px;
@@ -102,18 +101,6 @@ a {
     padding: 8px;
 }
 
-footer nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 10px;
-    height: 140px;
-}
-
 .enlaces a {
     gap: 10px;
-}
-
-footer img {
-    height: 80px;
 }
