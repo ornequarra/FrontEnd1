@@ -32,6 +32,10 @@ header {
     font-size: 12px;
 }
 
+.contenedor i {
+    display: none;
+}
+
 .pawprint {
     height: 14px;
     width: 15px;
@@ -48,8 +52,8 @@ header {
 h2 {
     background-color: #ffffff;
     width: max-content;
-    font-size: 30px;
-    padding: 10px;
+    font-size: 1.9rem;
+    padding: 0.62rem;
 }
 
 .banner {
@@ -65,8 +69,8 @@ h2 {
 }
 
 .banner p {
-    font-size: 16px;
-    margin: 10px;
+    font-size: 1rem;
+    margin: 0.62rem;
 }
 
 .carteles {
@@ -184,4 +188,47 @@ nav a {
 
 .fondo {
     font-weight: 700;
+}
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 480px) {
+    .grandesOfertas {
+        display: none;
+    }
+    header nav {
+        display: none;
+    }
+    .contenedor i {
+        display: inline-block;
+        color: #FFFFFF;
+        font-size: 1rem;
+    }
+    .banner {
+        height: 27.5rem;
+        background-size: cover;
+    }
+    h2 {
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    .carteles {
+        align-items: flex-end;
+    }
+    .tarjetas {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .principal nav {
+        margin-top: 1rem;
+    }
+    .contacto {
+        display: flex;
+        flex-direction: column;
+    }
+    .contacto img.logo {
+        order: -2;
+        margin-top: 1em;
+    }
 }

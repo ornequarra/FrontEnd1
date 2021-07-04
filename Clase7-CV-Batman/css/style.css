@@ -1,5 +1,6 @@
 body {
     font-family: Times New Roman;
+    margin: 0;
 }
 
 header {
@@ -8,26 +9,26 @@ header {
 }
 
 h1 {
-    line-height: 84.69%;
+    line-height: 25px;
     color: #005677;
-    padding: 0.5em;
+    padding: 16px;
     text-align: center;
     background: #C4C4C4;
     margin-top: 0;
-    letter-spacing: 0.3em;
+    letter-spacing: 10px;
 }
 
 main {
-    max-width: 70em;
-    margin: 7em 18em;
+    max-width: 1120px;
+    margin: 112px 288px;
 }
 
 h2 {
     background: #C4C4C4;
-    padding: 0.3em 1em;
+    padding: 5px 16px;
     margin: 0;
-    letter-spacing: 0.5em;
-    word-spacing: 0.5em;
+    letter-spacing: 10px;
+    word-spacing: 10px;
     color: #005677;
 }
 
@@ -43,7 +44,7 @@ li {
 }
 
 .descripcion {
-    padding-left: 5em;
+    padding-left: 80px;
 }
 
 .fecha {
@@ -51,9 +52,9 @@ li {
 }
 
 footer {
-    padding: 0.8em;
+    padding: 13px;
     color: white;
     text-align: center;
     background: #005677;
-    word-spacing: 0.5em;
+    word-spacing: 10px;
 }
