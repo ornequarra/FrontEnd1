@@ -1,3 +1,5 @@
+/*Generales*/
+
 * {
     box-sizing: border-box;
     margin: 0%;
@@ -7,6 +9,9 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+
+/*Header*/
 
 header {
     background-color: black
@@ -36,10 +41,22 @@ header {
     display: none;
 }
 
-.pawprint {
+.link::before {
+    font-family: 'FontAwesome';
+    content: "\f1b0";
+    color: #FFFFFF;
+    margin-right: 0.3rem;
+}
+
+.link:hover {
+    color: #3C2313;
+}
+
+
+/*.pawprint {
     height: 14px;
     width: 15px;
-}
+}*/
 
 .logo {
     height: 23px;
@@ -49,11 +66,27 @@ header {
     margin-right: 20px;
 }
 
+.logo:hover {
+    height: 25px;
+    width: 170px;
+}
+
+
+/*Main*/
+
 h2 {
     background-color: #ffffff;
     width: max-content;
     font-size: 1.9rem;
     padding: 0.62rem;
+}
+
+h2::selection {
+    color: #F0A83E;
+}
+
+h2:hover {
+    background-color: #e9c083;
 }
 
 .banner {
@@ -87,6 +120,10 @@ h2 {
     padding: 20px;
 }
 
+.boton:hover {
+    background-image: linear-gradient( 100deg, #02a5a5 50%, #028484 50%);
+}
+
 .principal {
     text-align: center;
 }
@@ -94,6 +131,11 @@ h2 {
 .paw {
     width: 67px;
     height: 71px;
+}
+
+.paw:hover {
+    width: 75px;
+    height: 79px;
 }
 
 h1 {
@@ -108,6 +150,11 @@ nav a {
     font-size: 15px;
     font-weight: 400;
     margin: 20px;
+}
+
+nav a:hover {
+    color: #3C2313;
+    font-size: 1rem;
 }
 
 .tarjetas {
@@ -127,12 +174,82 @@ nav a {
     font-size: 19px;
 }
 
-.fondo {
-    color: #F3F3F3;
-    background-color: #222222;
-    text-align: center;
-    font-weight: bold;
+.articulo img:hover {
+    width: 290px;
+    height: 294px;
 }
+
+
+/*Contactanos*/
+
+#contactanos h3 {
+    color: #3C2313;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.8rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    margin-top: 5rem;
+}
+
+#contactanos form {
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.etiqueta {
+    background-color: #3C2313;
+    width: 30vw;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    text-align: left;
+    padding-left: 1rem;
+    margin: 0.5rem auto;
+}
+
+.etiqueta:focus {
+    background-color: #F0A83E;
+}
+
+.botones {
+    width: 50%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 5rem;
+}
+
+.button {
+    width: 47%;
+    height: 2rem;
+    border-radius: 20px;
+    color: #FFFFFF;
+    background-color: #8A8787;
+    border-style: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    position: relative;
+    bottom: 0.5rem;
+    opacity: 0.5;
+}
+
+.entrar {
+    background-color: #F0A83E;
+}
+
+
+/*Enviar Correo*/
 
 .enviarCorreo {
     background-color: #F0A83E;
@@ -147,6 +264,40 @@ nav a {
 .enviarCorreo img {
     padding: 0 23px;
 }
+
+.enviarCorreo img:hover {
+    position: relative;
+    left: 1rem;
+}
+
+.suscribir {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 25rem;
+    gap: 0.5rem;
+}
+
+.suscribir .etiqueta {
+    background-color: #fff;
+    border-style: none;
+}
+
+.suscribir .etiqueta:hover {
+    background-color: #e9c083;
+    border-style: none;
+}
+
+.suscribir .button {
+    background-color: #3C2313;
+    font-size: 0.8rem;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.5rem 1rem;
+}
+
+
+/*Contacto*/
 
 .contacto {
     background-color: #3C2313;
@@ -187,7 +338,10 @@ nav a {
 }
 
 .fondo {
-    font-weight: 700;
+    color: #F3F3F3;
+    background-color: #222222;
+    text-align: center;
+    font-weight: bold;
 }
 
 

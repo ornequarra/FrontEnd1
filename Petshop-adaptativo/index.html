@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <script src="https://kit.fontawesome.com/c4bc9dbb15.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <title>FrontCat&Dog</title>
@@ -24,10 +26,10 @@
         <div class="contenedor justify">
             <img class="logo" src="img/Logo.png" alt="Logo">
             <nav>
-                <a href=""><img src="img/pawprint 1.png" alt="pawprint" class="pawprint">Categorías</a>
-                <a href=""><img src="img/pawprint 1.png" alt="pawprint" class="pawprint">Pets</a>
-                <a href=""><img src="img/pawprint 1.png" alt="pawprint" class="pawprint">Nosotros</a>
-                <a href=""><img src="img/pawprint 1.png" alt="pawprint" class="pawprint">Contactanos</a>
+                <a href="" class="link">Categorías</a>
+                <a href="" class="link">Pets</a>
+                <a href="" class="link">Nosotros</a>
+                <a href="#contactanos" class="link">Contactanos</a>
             </nav>
             <i class="fas fa-bars"></i>
         </div>
@@ -67,11 +69,27 @@
                 </article>
             </section>
         </section>
+        <section id="contactanos">
+            <h3>Contáctanos</h3>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Nombre y Apellido" class="etiqueta" required>
+                <input type="email" name="email" placeholder="Ingresá tu correo electrónico" class="etiqueta" required>
+                <input type="tel" name="tel" placeholder="Teléfono" class="etiqueta" required>
+                <div class="botones">
+                    <button type="reset" class="button">Resetear</botton>
+                    <button type="submit" class="button entrar">Enviar</botton>
+                </div>
+                </form>
+        </section>
     </main>
     <footer>
         <div class="enviarCorreo">
             <img src="img/enviar-correo 1.png" alt="enviar-correo">
             <p>Suscríbete para más novedades</p>
+            <form action="#" method="POST" class="suscribir">
+                <input type="email" name="email" placeholder="Ingresá tu correo electrónico" class="etiqueta" required>
+                <button type="submit" class="button"> Suscribirme</botton>
+            </form>
         </div>
         <div class="contacto">
             <div>
